@@ -16,7 +16,6 @@ model = tf.keras.Sequential([
 # Compilar el modelo
 model.compile(optimizer='sgd', loss='mean_squared_error')
 
-# Entrenar el modelo
 model.fit(X, y, epochs=100, verbose=0)
 
 # Hacer predicciones
