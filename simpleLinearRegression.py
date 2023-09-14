@@ -2,7 +2,6 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Generar datos sintéticos
 np.random.seed(0)
 X = np.random.rand(100, 1)
 y = 2 * X + 1 + 0.1 * np.random.randn(100, 1)
