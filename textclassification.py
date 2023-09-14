@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 train_file_path = "train-data.tsv"
 test_file_path = "valid-data.tsv"
 
-# Cargar los datos
 train_data = pd.read_csv(train_file_path, sep='\t', header=None, names=['label', 'message'])
 test_data = pd.read_csv(test_file_path, sep='\t', header=None, names=['label', 'message'])
 
