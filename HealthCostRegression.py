@@ -10,7 +10,6 @@ dataset.tail()
 # Convert categorical data to numbers
 dataset = pd.get_dummies(dataset, prefix='', prefix_sep='')
 
-# Split the dataset into training and testing sets
 train_dataset, test_dataset = train_test_split(dataset, test_size=0.2, random_state=42)
 
 # Pop off the "expenses" column to create train_labels and test_labels
