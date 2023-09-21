@@ -13,7 +13,6 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 
 model.fit(X_train, y_train, epochs=50)
 
-# 
 y_pred = model.predict(X_train)
 
 # Graficar los datos y la línea de regresión
