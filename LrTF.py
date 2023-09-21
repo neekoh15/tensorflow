@@ -11,7 +11,6 @@ model.add(tf.keras.layers.Dense(1, input_shape=(1,)))
 
 model.compile(optimizer='sgd', loss='mean_squared_error')
 
-# Entrena
 model.fit(X_train, y_train, epochs=50)
 
 # Predecir valores
