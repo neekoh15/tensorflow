@@ -9,7 +9,6 @@ y_train = 2 * X_train + np.random.randn(*X_train.shape) * 0.33
 model = tf.keras.Sequential()
 model.add(tf.keras.layers.Dense(1, input_shape=(1,)))
 
-# Compila
 model.compile(optimizer='sgd', loss='mean_squared_error')
 
 # Entrenar el modelo
