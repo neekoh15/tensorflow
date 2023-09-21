@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Generar datos de entrenamiento
+# Generar datos 
 X_train = np.linspace(-1, 1, 100)
 y_train = 2 * X_train + np.random.randn(*X_train.shape) * 0.33
 
