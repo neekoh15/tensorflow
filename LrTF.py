@@ -15,7 +15,7 @@ model.fit(X_train, y_train, epochs=50)
 
 y_pred = model.predict(X_train)
 
-# Graficar los dat
+
 plt.scatter(X_train, y_train)
 plt.plot(X_train, y_pred, color='red')
 plt.show()
